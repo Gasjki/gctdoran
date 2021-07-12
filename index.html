@@ -11,11 +11,11 @@
 </head>
 <body class="bg-yellow-100">
     <div class="container mx-auto px-8 mt-16 mb-8">
-        <div class="grid grid-cols-1 xl:grid-cols-4 gap-4">
+        <div class="grid grid-cols-1 xl:grid-cols-4">
             <!-- Profile -->
-            <figure class="bg-yellow-300 shadow-lg rounded-xl p-8 md:h-96">
+            <figure class="align-middle bg-yellow-300 shadow-lg rounded-xl p-8 xl:h-1/6">
                 <img
-                        class="w-32 h-32 rounded-full mx-auto border-4 border-yellow-100"
+                        class="w-32 h-32 rounded-full mx-auto border-4 border-yellow-100 xl:mt-24"
                         src="./assets/images/avatar.jpg"
                         alt="Tudoran George-Cristian"
                 />
@@ -41,11 +41,16 @@
                     </blockquote>
                     <figcaption class="font-medium">
                         <div class="text-cyan-600">Tudoran George-Cristian</div>
-                        <div class="text-gray-500 text-sm">Software Engineer, Zitec</div>
+                        <div class="text-gray-500 text-sm">Senior Software Engineer, Zitec</div>
                     </figcaption>
                 </div>
+                <div class="space-y-4 align-middle mt-6">
+                    <a href="https://www.zend-zce.com/en/yellow-pages/ZEND031941" target="_blank">
+                        <img src="https://www.zend-zce.com/static-assets/img/zcedirectory/zce-2017-small.gif" alt="Zend Certification" class="block mx-auto"/>
+                    </a>
+                </div>
             </figure>
-            <div class="pr-8 pl-0 xl:p-8 xl:pt-0 col-span-3 space-y-8">
+            <div class="pl-0 xl:p-8 xl:pt-0 col-span-3 space-y-8 mt-4 xl:mt-0">
                 <!-- Summary -->
                 <figure class="rounded-xl">
                     <figcaption class="flex items-center bg-yellow-300 space-x-4 p-6 md:px-10 md:py-6 rounded-t-xl leading-6 font-semibold text-white">
@@ -81,6 +86,26 @@
                     </blockquote>
                 </figure>
 
+                <!-- Small screens -->
+                <figure class="rounded-xl lg:hidden">
+                    <figcaption
+                            class="flex items-center bg-red-500 space-x-4 p-6 md:px-10 md:py-6 rounded-t-xl leading-6 font-semibold text-white">
+                        <div class="flex-auto">Oh snap, small screens!</div>
+                    </figcaption>
+                    <blockquote class="rounded-b-xl bg-white px-6 py-8 md:p-10 leading-8 md:leading-8 text-gray-900 space-y-4">
+                        <div>
+                            <p class="justify-evenly">
+                                <span class="block text-gray-400">
+                                    <span class="block leading-relaxed">
+                                        Well, that's embarrassing, but I have to confess that I'm still working on the mobile version, so if you notice any
+                                        problems with items on page... just ignore them for now! :)
+                                    </span>
+                                </span>
+                            </p>
+                        </div>
+                    </blockquote>
+                </figure>
+
                 <!-- Jobs -->
                 <figure class="rounded-xl">
                     <figcaption
@@ -89,7 +114,42 @@
                     </figcaption>
                     <blockquote class="rounded-b-xl bg-white px-6 py-8 md:p-10 leading-8 md:leading-8 text-gray-900 space-y-4">
                         <div>
-                            <h2 class="font-semibold text-xl">PHP Software Engineer <span class="text-sm">(Oct 2019 - Present)</span></h2>
+                            <h2 class="font-semibold text-xl">PHP Senior Software Engineer <span class="text-sm">(Mar 2021 - Present)</span></h2>
+                            <p class="mt-2 justify-evenly">
+                                Zitec, Bucharest
+
+                                <!-- Pegasus -->
+                                <span class="block text-gray-400 mt-2">
+                                    <span class="block font-semibold uppercase border-b-4 border-yellow-200"><a href="https://mylawfunds.com/" target="_blank">Pegasus</a></span>
+                                    <span class="block leading-relaxed mt-4">
+                                        I joined Pegasus team long time after it was started. My first task was to integrate their lists with
+                                        Elastic Search in order to increase their search time and to allow them to make "silly" mistakes (e.g.:
+                                        typos when looking for specific data). Project is pretty similar with The Fundworks, with its specific features, of course!
+                                    </span>
+                                    <span class="block mt-4 space-x-1 overflow-ellipsis">
+                                        <span class="font-semibold">Technologies:</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Symfony 4.x</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">MySQL 5.x</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Doctrine ORM</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Twig</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Sonata Admin</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">jQuery</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Bootstrap 4.x</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Redis</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">AWS</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Docker</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Jenkins</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Gitlab</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">DocuSign</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Linux (Ubuntu)</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Elastic Search 6.x</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Kibana</span>
+                                    </span>
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <h2 class="font-semibold text-xl">PHP Software Engineer <span class="text-sm">(Oct 2019 - Feb 2021)</span></h2>
                             <p class="mt-2 justify-evenly space-y-4">
                                 Zitec, Bucharest
 
@@ -123,7 +183,7 @@
                                     </span>
                                 </span>
 
-                                <!-- Internal Project - Python -->
+                                <!-- Internal Project - Python / Symfony -->
                                 <span class="block text-gray-400 mt-2">
                                     <span class="block font-semibold uppercase border-b-4 border-yellow-200"><a href="https://zitec.ro/" target="_blank">Internal Saas project - Not release yet</a></span>
                                     <span class="block leading-relaxed mt-4">More information after project is released.</span>
@@ -153,6 +213,9 @@
                                         Application was started in 2016 and has been in a continuous development ever since.
                                         Main goal of the application is to track funding requests and to debit more than $400k/daily from
                                         the bank accounts of the loaners. We use an internal API to generate and move these money from an US bank.
+                                        <br /><br />
+                                        Moreover, we needed to migrate around 3TB of files from a local network drive to SharePoint. I was a key member
+                                        of the entire operation that lasted 3 weeks (24h/day).
                                     </span>
                                     <span class="block mt-4 space-x-1">
                                         <span class="font-semibold">Technologies:</span>
@@ -173,6 +236,8 @@
                                         <span class="bg-gray-700 px-3 py-1 rounded-full">Jenkins</span>
                                         <span class="bg-gray-700 px-3 py-1 rounded-full">Gitlab</span>
                                         <span class="bg-gray-700 px-3 py-1 rounded-full">Linux (Ubuntu)</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">PowerShell / C#</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">SharePoint</span>
                                     </span>
                                 </span>
 
@@ -299,7 +364,34 @@
                                         <span class="bg-gray-700 px-3 py-1 rounded-full">Linux (Ubuntu)</span>
                                     </span>
                                 </span>
+                                <!-- DRONECLUB.RO -->
+                                <span class="block text-gray-400 mt-2">
+                                    <span class="block font-semibold uppercase border-b-4 border-yellow-200"><a href="https://droneclub.ro/" target="_blank">DRONECLUB.RO</a></span>
+                                    <span class="block leading-relaxed mt-4">
+                                        Being passionate about drones I decided to create a forum where users can find news, tutorials, offers and other members with the same passion.
+                                        I started this forum at the end of 2020 and its growing each day.
+                                    </span>
+                                    <span class="block mt-4 space-x-1">
+                                        <span class="font-semibold">Technologies:</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full my-4">Flarum</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">MySQL 8.x</span>
+                                        <span class="bg-gray-700 px-3 py-1 rounded-full">Linux (Ubuntu)</span>
+                                    </span>
+                                </span>
                             </p>
+                        </div>
+                    </blockquote>
+                </figure>
+
+                <!-- Certifications -->
+                <figure class="rounded-xl">
+                    <figcaption
+                            class="flex items-center bg-yellow-300 space-x-4 p-6 md:px-10 md:py-6 rounded-t-xl leading-6 font-semibold text-white">
+                        <div class="flex-auto">Certifications</div>
+                    </figcaption>
+                    <blockquote class="rounded-b-xl bg-white px-6 py-8 md:p-10 leading-8 md:leading-8 text-gray-900 space-y-4">
+                        <div>
+                            <h2 class="font-semibold text-xl"><a href="https://www.zend-zce.com/en/yellow-pages/ZEND031941" target="_blank">PHP Zend Certification</a> <span class="text-sm">(Feb 2021 - Forever)</span></h2>
                         </div>
                     </blockquote>
                 </figure>
@@ -336,16 +428,18 @@
                 <figure class="rounded-xl">
                     <figcaption
                             class="flex items-center bg-yellow-300 space-x-4 p-6 md:px-10 md:py-6 rounded-t-xl leading-6 font-semibold text-white">
-                        <div class="flex-auto">The end</div>
+                        <div class="flex-auto">Conclusion</div>
                     </figcaption>
-                    <blockquote class="rounded-b-xl bg-white px-6 py-8 md:p-10 leading-8 md:leading-8 text-gray-900">
-                        Do you need another information? Please write me email. I promise that I'll read it in less than 24hrs. The end!
+                    <blockquote class="rounded-b-xl bg-white text-center px-6 py-8 md:p-10 leading-8 md:leading-8 text-gray-900">
+                        Do you need another information? Please write me an <a href="mailto:tudoran.george23@yahoo.ro" class="border-b-4 border-yellow-200 font-semibold">email</a>.<br />
+                        <span class="italic">Do you find my resume interesting?</span><br /> Please write me an <a href="mailto:tudoran.george23@yahoo.ro" class="border-b-4 border-yellow-200 font-semibold">email</a>
+                        and don't forget to include company name, salary range, technologies and expectations. I'm tired of getting the same Linkedin message.
                     </blockquote>
                 </figure>
             </div>
         </div>
         <div class="mt-2 text-center text-gray-400">
-            Version: 1.0.0 - Last update: 21.01.2021
+            Version: 1.0.2 - Last update: 25.05.2021
         </div>
     </div>
 </body>
